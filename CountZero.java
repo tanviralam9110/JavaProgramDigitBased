@@ -1,5 +1,4 @@
 package jspider.number;
-
 public class CountZero {
     public static void main(String[] args) {
         int num=502050450;
@@ -10,7 +9,6 @@ public class CountZero {
                 count++;
                 System.out.println(rem);
             }
-
             num=num/10;
         }
         System.out.println("Total digit of 0 is: "+count);
