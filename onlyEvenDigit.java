@@ -9,7 +9,6 @@ public class onlyEvenDigit {
                 System.out.println(rem);
             }
                 num=num/10;
-
         }
     }
 }
