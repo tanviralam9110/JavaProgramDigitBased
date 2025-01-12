@@ -6,7 +6,7 @@ public class reverseNumber {
         while(num>0) {
             int rev = 0;
             int rem = num % 10;
-            rev = rem;
+            rev = rev*10+rem;
             num = num / 10;
             System.out.print(rev+" ");
         }
